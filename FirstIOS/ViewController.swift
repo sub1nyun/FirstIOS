@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController { //유아이뷰 컨트롤러 상속
     //안드로이드의 엑티비티 개념과 비슷함
+    //커밋 테스트
 
     //제목
     //선언과 동시에 정의하기
