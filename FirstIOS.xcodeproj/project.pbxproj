@@ -16,6 +16,7 @@
 		634DFD4C28732682001FB41D /* FirstIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DFD4B28732682001FB41D /* FirstIOSTests.swift */; };
 		634DFD5628732682001FB41D /* FirstIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DFD5528732682001FB41D /* FirstIOSUITests.swift */; };
 		634DFD5828732682001FB41D /* FirstIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DFD5728732682001FB41D /* FirstIOSUITestsLaunchTests.swift */; };
+		63BE8F82287717690020CD79 /* Swift - Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BE8F81287717690020CD79 /* Swift - Introduction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		634DFD5128732682001FB41D /* FirstIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634DFD5528732682001FB41D /* FirstIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSUITests.swift; sourceTree = "<group>"; };
 		634DFD5728732682001FB41D /* FirstIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63BE8F81287717690020CD79 /* Swift - Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift - Introduction.swift"; sourceTree = "<group>"; };
+		63BE8F83287718720020CD79 /* #Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Variables.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		63BE8F8428771CAE0020CD79 /* #Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				634DFD382873267F001FB41D /* MainViewController.swift */,
+				63BE8F81287717690020CD79 /* Swift - Introduction.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -114,6 +119,8 @@
 				634DFD3D28732682001FB41D /* Assets.xcassets */,
 				634DFD3F28732682001FB41D /* LaunchScreen.storyboard */,
 				634DFD4228732682001FB41D /* Info.plist */,
+				63BE8F83287718720020CD79 /* #Variables.playground */,
+				63BE8F8428771CAE0020CD79 /* #Number.playground */,
 			);
 			path = FirstIOS;
 			sourceTree = "<group>";
@@ -267,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				634DFD392873267F001FB41D /* MainViewController.swift in Sources */,
+				63BE8F82287717690020CD79 /* Swift - Introduction.swift in Sources */,
 				634DFD352873267F001FB41D /* AppDelegate.swift in Sources */,
 				634DFD372873267F001FB41D /* SceneDelegate.swift in Sources */,
 			);
