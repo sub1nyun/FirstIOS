@@ -51,8 +51,8 @@
 		634DFD5528732682001FB41D /* FirstIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSUITests.swift; sourceTree = "<group>"; };
 		634DFD5728732682001FB41D /* FirstIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63591102287DC4C8007513A8 /* #Switch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Switch.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		638434AA2880562400181293 /* #Variables2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Variables2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63BE8F81287717690020CD79 /* Swift - Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift - Introduction.swift"; sourceTree = "<group>"; };
-		63BE8F83287718720020CD79 /* #Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Variables.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63BE8F8428771CAE0020CD79 /* #Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -120,9 +120,9 @@
 				634DFD3D28732682001FB41D /* Assets.xcassets */,
 				634DFD3F28732682001FB41D /* LaunchScreen.storyboard */,
 				634DFD4228732682001FB41D /* Info.plist */,
-				63BE8F83287718720020CD79 /* #Variables.playground */,
 				63BE8F8428771CAE0020CD79 /* #Number.playground */,
 				63591102287DC4C8007513A8 /* #Switch.playground */,
+				638434AA2880562400181293 /* #Variables2.playground */,
 			);
 			path = FirstIOS;
 			sourceTree = "<group>";
