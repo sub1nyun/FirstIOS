@@ -118,3 +118,24 @@ for i in 0..<people.count {
 //하지만 때로는 현재 읽고있는 값이 실제로 필요하지 않은 경우도 있음 이곳에 밑줄(_)을 추가해줘야함
 //변수가 필요하지 않음을 인식하고 임시 상수를 만들지 않음
 
+//for "변수" in 반복횟수(식) 으로 표현함
+let name : [String] = ["수빈", "승주", "규형", "상민"]
+
+for stat in name{
+    print("name is \(stat)")
+}
+
+for i in stride(from: 0, to: 5, by: 1){
+    print("\(i)")
+}
+// 0부터 4까지 1씩 더해서 반복문을 돌려라 -> stride를 이용함
+
+for _ in name {
+    print("\(name)")
+}
+//반복 변수를 생성하지 않음 _ 언더스코어 사용시
+
+let count2 : [Int] = [1,2,3]
+for _ in count2 {
+    print("회사 가기 싫다앙")
+}
