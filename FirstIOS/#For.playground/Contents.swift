@@ -144,4 +144,5 @@ let count3 : [String] = ["수빈", "승주", "설화", "규형"]
 for i in count3 {
     print("\(i)이는 출근 하기 싫다")
 }
+print("\(count3[1])")
 
