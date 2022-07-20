@@ -139,3 +139,9 @@ let count2 : [Int] = [1,2,3]
 for _ in count2 {
     print("회사 가기 싫다앙")
 }
+
+let count3 : [String] = ["수빈", "승주", "설화", "규형"]
+for i in count3 {
+    print("\(i)이는 출근 하기 싫다")
+}
+
