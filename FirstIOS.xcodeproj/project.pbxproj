@@ -57,6 +57,7 @@
 		638434AD288447E400181293 /* #Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Set.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		638434AE2885995F00181293 /* #For.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#For.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		638434AF2888479900181293 /* #Collection Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Collection Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		63B5AE1D28899E52003C095D /* #enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#enum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63BE8F81287717690020CD79 /* Swift - Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift - Introduction.swift"; sourceTree = "<group>"; };
 		63BE8F8428771CAE0020CD79 /* #Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -133,6 +134,7 @@
 				638434AC28843F8300181293 /* #Array.playground */,
 				638434AD288447E400181293 /* #Set.playground */,
 				638434AE2885995F00181293 /* #For.playground */,
+				63B5AE1D28899E52003C095D /* #enum.playground */,
 			);
 			path = FirstIOS;
 			sourceTree = "<group>";

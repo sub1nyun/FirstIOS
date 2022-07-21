@@ -146,3 +146,27 @@ for i in count3 {
 }
 print("\(count3[1])")
 
+
+//foreach
+
+var myArray : [Int] = [0, 1,2,3,4,5,6,7,8,9,10] //0~10까지의 요소가 들어있음
+
+//컬렉션 : 데이터를 모아둔 것
+//배열, 셋, 딕셔너리, 튜플
+
+for item in myArray {
+    print(item)
+}
+
+//반복문에 특정한 조건를 넣음
+for item in myArray where item > 5 {
+    print("5보다 큰 수 \(item)")
+}
+
+for item in myArray where item % 2 == 0 {
+    print("짝수 : \(item)")
+}
+
+for item in myArray where item % 2 != 0 {
+    print("홀수 : \(item)")
+}
