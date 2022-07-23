@@ -2,7 +2,7 @@ import UIKit
 
 //컬렉션 타입 복습
 //데이터의 집합소
-//Array, Dictionart, Set
+//Array, Dictionary, Set
 
 //Array : 같은 데이터 타입의 값들을 순서대로 저장하는 리스트 -> 데이터들의 집합으로 순서가 있어 접근이 편함
 //단일 값으로 저장되는 값의 모임

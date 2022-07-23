@@ -7,7 +7,7 @@ import UIKit
 //nil -> 키워드인 동시에 값이 없다는 것을 나타내는 특별한 값
 //아무런 값을 저장하지 않는 것과 같다는 의미
 //let num = nil
-//형식 추론을 통ㅐ num을 추론해야 하는데 nild은 아무런 형식을 갖고 있지 않아서 오류가 발생함
+//형식 추론을 통ㅐ num을 추론해야 하는데 nil은 아무런 형식을 갖고 있지 않아서 오류가 발생함
 //let num2 : Int = nil
 //이또한 오류
 let num3 : Int? = nil
@@ -40,3 +40,5 @@ if test5 != nil {
 }else {
     print("is empty")
 }
+
+
