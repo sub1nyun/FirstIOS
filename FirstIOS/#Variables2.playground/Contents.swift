@@ -48,6 +48,15 @@ let unicodeScalarValue : String = "\u{2665}"
 print(unicodeScalarValue)
 //유니코드의 스칼라 값을 입력하면 값에 해당하는 표현이 출력됨
 
+
+var testInt : Int = Int()
+var testBools : Bool = Bool()
+var doubletest : Double = Double()
+
+testBools = false
+print(testBools)
+testInt = 8
+print(testInt)
 //Any, AnyObject
 //Any는 모든 데이터 타입을 사용할 수 있다는 의미로 변수var 또는 상수let의 데이터 타입이 Any로 지정 되어 있다면
 //그 변수 또는 상수에는 어떠한 종류의 데이터 타입읻은지 상관없이 할당 할 수 있음
