@@ -35,14 +35,14 @@ enum SchoolDetail {
     case middle(name: String)
     case high(name: String)
     //함수도 가질 수 있음
-    func getName() -> String { //getName을 호출하면 String을 반환하겠다
-        switch self {
-        case .elementary(let name): return name
-        case .middle(name: name) : return name
-        case .high(name: name) : name
+    // func getName() -> String { //getName을 호출하면 String을 반환하겠다
+  //      switch self {
+        //    case .elementary(let name): return name
+        // case .middle(name: name) : return name
+       // case .high(name: name) : name
         }
-    }
-}
+    
+
 
 let yourMiddleSchoolName = SchoolDetail.middle(name: "수빈중학교")
 print("name: \(yourMiddleSchoolName)")
@@ -59,3 +59,18 @@ print("name: \(yourMiddleSchoolName)")
 //애플 : 아이폰, 아이패드, 맥북
 //삼성 : 갤럭시, 버즈, 삼성 노트북, 갤럭시탭
 
+enum Apple {
+    case iPhone, iPad, AirPods, Mac, TrackPad, MagicKeyBoard
+}
+
+// 열거형 변수의 생성 및 값 변경
+var MyAppleItems: Apple = .iPhone
+var MyAppleItems2 = Apple.iPhone
+var MyAppleitems3: Apple = Apple.iPhone
+
+print(type(of: MyAppleItems2)) // Apple
+
+// 같은 타입인 Apple 내부의 항목으로만 MyAppleItems의 값을 변경해줄 수 있다.
+print(MyAppleItems)
+MyAppleItems = .AirPods
+print(MyAppleItems) // AirPods

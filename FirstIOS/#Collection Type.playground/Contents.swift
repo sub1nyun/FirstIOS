@@ -81,6 +81,10 @@ print(planets[2])
 favoriteIceCream.updateValue("밸류 값 추가", forKey: "여긴 키값")
 print(favoriteIceCream)
 
+let users = ["Taylor", "Taylor Swift"] //배열선언
+type(of: users)
+let taylor = users["Taylor", default: "Anonymous"] //이것은 배열임
+
 
 
 
