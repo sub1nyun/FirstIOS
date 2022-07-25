@@ -3,7 +3,17 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/yoonsubin/FirstIOS/FirstIOS/%23For.playground#CharacterRangeLen=15&amp;CharacterRangeLoc=1605&amp;EndingColumnNumber=0&amp;EndingLineNumber=88&amp;StartingColumnNumber=1&amp;StartingLineNumber=87&amp;Timestamp=680107563.470234"
+         documentLocation = "file:///Users/yoonsubin/FirstIOS/FirstIOS/%23For.playground#CharacterRangeLen=15&amp;CharacterRangeLoc=1605&amp;EndingColumnNumber=0&amp;EndingLineNumber=88&amp;StartingColumnNumber=1&amp;StartingLineNumber=87&amp;Timestamp=680451532.45219"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/yoonsubin/FirstIOS/FirstIOS/%23For.playground#CharacterRangeLen=10&amp;CharacterRangeLoc=3387&amp;EndingColumnNumber=15&amp;EndingLineNumber=184&amp;StartingColumnNumber=5&amp;StartingLineNumber=184&amp;Timestamp=680451532.452335"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/yoonsubin/FirstIOS/FirstIOS/%23For.playground#CharacterRangeLen=11&amp;CharacterRangeLoc=3345&amp;EndingColumnNumber=20&amp;EndingLineNumber=183&amp;StartingColumnNumber=9&amp;StartingLineNumber=183&amp;Timestamp=680451532.452413"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

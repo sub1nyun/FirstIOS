@@ -170,3 +170,19 @@ for item in myArray where item % 2 == 0 {
 for item in myArray where item % 2 != 0 {
     print("홀수 : \(item)")
 }
+
+//레인지(범위)
+// 0...5 -> 0~5
+for i in 0...5 {
+    print("\(i)")
+}
+
+//var randomInts : [Int] = []
+var randomInts : [Int] = [Int]()
+
+for _ in 0..<25 {
+    let randomNuber = Int.random(in: 0...100)
+    randomInts.append(randomNuber)
+}
+
+
