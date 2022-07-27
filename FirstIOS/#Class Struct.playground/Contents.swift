@@ -111,3 +111,29 @@ print(myCharacter)
 //다른 곳으로 보낼 수 있으면 다른 곳에서 변숫값을 변경하는 것에 대해 걱정할 필요가 없음.
 //구조체의 주요 목적은 비교적 간단한 데이터 값을 캡슐화 하는 것
 
+struct Code {
+    var language : String
+    var containsErrors = false
+    var report : String {
+        if containsErrors { //true 이면
+            return "This \(language) code has bugs!"
+            print("This \(language) code has bugs!") //반드시 스트링 값을 리턴해줘야함
+        } else {
+            return "This looks good to me"
+        }
+    }
+}
+let Korean = Code(language: "Korean", containsErrors: true)
+print(Korean.report)
+//true 이거나 false 일때 값을 반환하도록 저장하는 기능도 있음
+
+//Struct를 사용해야 할 때
+// 참조가 아닌 복사를 원할 때
+// 자신을 상속할 필요가 없거나 자신이 다른 타입을 상속받을 필요가 없을 때
+// 연관된 몇몇의 값들을 모아서 하나의 데이터 타입으로 표현하고 싶을 때
+//클래스는 반대로 생각하면 편함
+
+//멤버와이즈 이니셜라이저는 구조체의 특권으로 클래스에서는 지원하지 않음
+
+
+
