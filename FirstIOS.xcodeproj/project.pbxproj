@@ -58,6 +58,8 @@
 		638434AE2885995F00181293 /* #For.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#For.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		638434AF2888479900181293 /* #Collection Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Collection Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63AC4E822891801400A6B56E /* #Class Struct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Class Struct.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		63AC4E83289818AD00A6B56E /* #property observer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#property observer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		63AC4E8428981DE800A6B56E /* #Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Function.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63B5AE1D28899E52003C095D /* #enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#enum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		63BE8F81287717690020CD79 /* Swift - Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift - Introduction.swift"; sourceTree = "<group>"; };
 		63BE8F8428771CAE0020CD79 /* #Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "#Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -137,6 +139,8 @@
 				638434AE2885995F00181293 /* #For.playground */,
 				63B5AE1D28899E52003C095D /* #enum.playground */,
 				63AC4E822891801400A6B56E /* #Class Struct.playground */,
+				63AC4E83289818AD00A6B56E /* #property observer.playground */,
+				63AC4E8428981DE800A6B56E /* #Function.playground */,
 			);
 			path = FirstIOS;
 			sourceTree = "<group>";
