@@ -64,3 +64,72 @@ print(welcome)
 //void로 선언해서 오류나는듯
 //let testName : String = hello2(name: "테스트")
 //print(testName)
+
+//두 수를 더하는 함수
+func sum(a : Int, b : Int) -> Int {
+    return a+b
+}
+//중간에 멀티라인도 가능함
+
+//매개변수
+//스위프트 함수는 매개변수 정의에 따라 모습이 달라 질 수 있음
+func square(number : Int){ //매개 변수의 이름을 지정한 다음 : 을 통해 데이터 유형을 알려줘야함
+    
+}
+
+//매개변수가 없는 함수
+func helloSubin() -> String { //매개변수가 필요 없다면 공란으로 둠 , 여러 개라면 쉼표로 구분
+    return "방갑습니다"
+}
+
+//매개변수 이름과 전달 인자 레이블
+//전달인자 레이블을 별도로 지정하여 역할을 좀 더 명확하게 할 수 있음
+func welcome2(from myname:String, to yourname:String) -> String { //레이블, 변수명 : 타입
+    "안녕하세여\(yourname)님아 저는 \(myname)이라고 합니당"
+}
+//from 과 to 라는 전달인자레이블이 존재
+//myName과 name이라는 매개변수 이름이 있는 함수
+print(welcome2(from: "설화", to: "승주"))
+
+//전달인자 레이블을 사용하고 싶지 않다면 와일드카드 식별자를 사용할 수 있음
+func welcome3(_ myname:String, _ times:Int) -> String {
+    "아무튼 \(myname) 이녀석을 \(times) 이만큼 리턴"
+}
+print(welcome3("수빈", 2))
+
+func welcome3(to name:String, repeatCount times: Int) -> String {
+    "함수 명이 같지만 전달인자 레이블이 다르기에 중복 정의(오버로드)가 가능함"
+}
+
+//매개변수 기본값
+//함수에서 매개변수마다 기본값을 지정할 수 있음 -> 매개변수가 전달 되지 않으면 기본값을 사용하는 구조
+func delcome3(to name:String, repeatCount times: Int = 3) -> String {
+    var result : String = ""
+    
+    for _ in 0..<times {
+        result += "안농\(name)" + ""
+    }
+    return result
+}
+print(delcome3(to: "테스트")) //3번 찍힘
+
+//가변 매개변수
+//매개변수로 몇 개의 값이 들어올지 모를때 -> 가변 매개변수를 사용함 0개 이상의 값을 받아올 수 있음
+//배열처럼 사용가능하며 함수마다 가변 매개변수는 '하나만' 갖을 수 있음
+
+func welcomeToFriends(me:String, friends name:String...) -> String {
+    var result : String = ""
+    
+    for friends in name {
+        result += "안녕\(friends)야"
+    }
+    
+    result += "저는" + me + "입니다"
+    return result
+}
+
+print(welcomeToFriends(me: "수빈", friends: "승주", "규형", "상민"))
+print(welcomeToFriends(me: "수빈"))
+
+      
+
