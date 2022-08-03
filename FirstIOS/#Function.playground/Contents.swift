@@ -131,5 +131,29 @@ func welcomeToFriends(me:String, friends name:String...) -> String {
 print(welcomeToFriends(me: "수빈", friends: "승주", "규형", "상민"))
 print(welcomeToFriends(me: "수빈"))
 
-      
+//중첩 함수
+//데이터 타입의 중첩이 자유로움 -> 열거형 안에 열거형, 클래스에 안에 클래스 가능
+//함수의 중첩은 함수 안에 함수를 넣을 수 있다는 의미로 전역 함수
+
+
+//종료되지 않는 함수
+//종료 return 되지 않는 함수가 존재함
+//종료 x -> 정상적으로 끝날수 없는 함수 = 비반환함수 = 비반환
+//어디서든 호출이 가능하며 guard의 구문 else 블록에서도 호출할 수 있음 -> 재정의 가능 하지만 타입 변경 x
+//키워드 never
+func crashAndBum() -> Never {
+    fatalError("Something vert bad happened")
+}
+
+crashAndBum() //프로세스 종료 후 오류 보고
+
+//데이터 타입으로 함수
+//스위프트의 함수는 일급 객체 -> 데이터 타입으로 사용이 가능함
+//반환이없는 경우 void
+//함수는 () 생략이 불가능함
+//매개변수 반환 값 둘다 없는 경우 () -> Void
+
+//두 개 이상의 값을 반환하기 위해서는 튜플이나 배열, 딕셔너리 사용
+
+//중간 복습 예정
 
